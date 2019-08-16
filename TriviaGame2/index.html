@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Trivia Game</title>
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+            <!-- jQuery library -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+            <!-- Latest compiled JavaScript -->
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+            <link rel="stylesheet" href="assets/css/style.css">
+            <script type="text/javascript" src="assets/javascript/app.js"></script>
+
+        </head>
+    <body>
+        <audio controls autoplay>
+            <source src="./assets/images/24 - Blood theme.mp3" type="audio/mp3"/>
+        </audio>
+
+        <div class="container">
+            <div class="jumbotron jumbotron-fluid">
+
+                <div class="container">    
+                    <div id="game">    
+                      <h1>Dexter Trivia Game</h1>        
+                        <p id="remaining-time" class="lead">Remaining Time: <span id="timer"></span></p>            
+                        <div class="row"></div>          
+                        <button id="start" class="btn btn-info btn-lg">Start Game</button>              
+                        <p id="question" class="lead"></p>              
+                        <div id="choices" class="text-center"></div>                               
+                        <div id="results"></div>   
+                    </div>           
+                </div>       
+            </div>
+        </div>   
+    </body>
+</html>

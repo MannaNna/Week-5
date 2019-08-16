@@ -1,0 +1,90 @@
+body {
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-image: url("../images/background.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container {
+    width: 60%;
+    background-color: #D2691E;
+    margin: 20px auto;
+    padding: 25px;
+}
+
+header {
+    text-align: center;
+    border-bottom: rgb(2, 2, 2) dashed 1px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header p{
+    padding: 0;
+    margin-top: 5px;
+    color: #000;
+}
+
+section {
+    min-height: 400px;
+}
+
+input[type="submit"] {
+    background-color: #1a0801;
+    border: 0;
+    color: rgb(237, 245, 240);
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+#results h3{
+    background-color: rgb(236, 129, 5);
+    color: white;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#results span{
+    color: white;
+    font-weight: bold;
+}
+
+#results {
+    text-align: center;
+}
+
+#start_button {
+    background-color: black;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+    border-radius: 2px;
+    border:none;
+    outline: none;
+    width: 200px;
+    color:#fff;
+    font-size: 28px;
+    padding: 10px 0;
+    cursor: pointer;
+    font-family: "Roboto Mono", Roboto, sans-serif;
+  }
+
+#startButtonDiv{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+
+#timerDiv {
+    text-align: center;
+    width: 100%;
+}
+
+table {
+    margin: 0 auto; 
+}
